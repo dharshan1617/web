@@ -61,9 +61,12 @@ func checkOpenRedirect(url string) {
 		status := "No open redirect found"
 		if resp.StatusCode >= 300 && resp.StatusCode < 400 {
 			status = " open redirect maybe "
+
+
+  fmt.Printf("%-100s%-40s%-10d\n", full, status, resp.StatusCode)
 		}
 
-		fmt.Printf("%-100s%-40s%-10d\n", full, status, resp.StatusCode)
+		
 
 	}
 }
