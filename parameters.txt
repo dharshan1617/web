@@ -1,3 +1,12 @@
+HtTp://mdattacker.net
+%00http://mdattacker.net
+ http://mdattacker.net
+//mdattacker.net
+%68%74%74%70%3a%2f%2fmdattacker.net
+%2568%2574%2574%2570%253a%252f%252fmdattacker.net
+https://mdattacker.net
+http:\\mdattacker.net
+http:///mdattacker.net
 /?url=google.com
 /?redirect=google.com
 /?target=google.com
