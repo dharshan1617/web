@@ -9,13 +9,9 @@ import (
 )
 
 func main() {
-	filePath := flag.String("filepath", "", "File path containing the list of sites")
-	flag.Parse()
+	filePath := "urls.txt"
 
-	if *filePath == "" {
-		fmt.Println("Usage: script.go -filepath <file_path>")
-		return
-	}
+	
 
 	file, err := os.Open(*filePath)
 	if err != nil {
